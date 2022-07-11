@@ -8,15 +8,6 @@ html {
     scroll-behavior: smooth;
   }
 
-a.link-li {
-    text-decoration: none;
-    color:black;
-}
-
-a.link-li:hover {
-    color:rgb(82,39,204);
-}
-
 /*LETRAS GENERALES*/
 
 h1 {
@@ -35,6 +26,15 @@ h2 {
     font-family: 'DM Sans', sans-serif;
     font-size:30px;
     font-weight: lighter;
+}
+
+a.link-li {
+    text-decoration: none;
+    color:black;
+}
+
+a.link-li:hover {
+    color:rgb(82,39,204);
 }
 
 /*NAV*/
@@ -105,7 +105,7 @@ h2 {
 
 @media (max-width:391px) {
     .nav-ul-contenedor {
-        width:0%;
+        display:none;
         overflow: hidden;
     }
     .menu-nav {
@@ -568,9 +568,13 @@ input {
 
 span.avisos {
     font-size: 12px;
-    color: gray;
+    color: red;
     font-family: 'DM Sans', sans-serif;
     font-weight: lighter;
+}
+
+span.avisos.textarea {
+    color:gray;
 }
 
 .textarea {
