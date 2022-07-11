@@ -134,7 +134,7 @@ a.link-li:hover {
 header {
     margin-top: 70px;
     width:100%;
-    background:linear-gradient( rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.3)100%),url("manos.jpg");
+    background:linear-gradient( rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.3)100%),url("fotos/manos.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -734,7 +734,7 @@ footer {
 
 .img-modal-contenedor {
     width: 50%;
-    background:linear-gradient( rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.3)100%),url("imagen-modal.JPG");
+    background:linear-gradient( rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.3)100%),url("fotos/imagen-modal.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
